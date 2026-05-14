@@ -103,7 +103,7 @@ body{
 
 .menu{
     display:flex;
-    gap:80px;
+    gap:20px;
     padding-left:40px;
 }
 
