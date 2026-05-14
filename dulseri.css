@@ -5,7 +5,7 @@ body {
 }
 
 h1, h2 {
-    color: rgb(118, 83, 119);
+    color: rgb(151, 25, 77);
     text-align: center;
 }
 
@@ -78,6 +78,7 @@ li:hover {
     color: white;
 }
 nav a {
+    font-size: larger;
     text-decoration: none;
     color: rgb(118, 83, 119);
     font-weight: bold;
@@ -88,8 +89,34 @@ nav a {
     display: inline-block;
 }
 
-nav a:hover {
-    background-color: rgb(118, 83, 119);
-    color: white;
-    transform: scale(1.05);
+body{
+    margin:0;
+}
+
+.barra{
+    background:#d9a441;
+    display:flex;
+    align-items:center;
+    width:100%;
+    padding:20px 0;
+}
+
+.menu{
+    display:flex;
+    gap:80px;
+    padding-left:40px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    font-size:30px;
+    font-family:Arial;
+    font-weight:bold;
+}
+
+.logo{
+    width:90px;
+    margin-left:auto;
+    margin-right:20px;
 }
